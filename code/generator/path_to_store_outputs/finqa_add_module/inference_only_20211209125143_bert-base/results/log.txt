@@ -1,0 +1,4 @@
+Reading: operation_list.txt
+Reading: constant_list.txt
+Reading /home/leo_lin_colab/FinQA-main/dataset/test.json
+exe acc: 0.6817785527462947 prog acc: 0.6713164777680907

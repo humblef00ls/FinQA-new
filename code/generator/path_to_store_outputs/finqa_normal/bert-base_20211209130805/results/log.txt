@@ -1,0 +1,308 @@
+Reading: operation_list.txt
+Reading: constant_list.txt
+Reading /home/leo_lin_colab/FinQA-main/dataset/train.json
+Reading /home/leo_lin_colab/FinQA-main/dataset/dev.json
+Reading /home/leo_lin_colab/FinQA-main/dataset/test.json
+####################INPUT PARAMETERS###################
+__module__ = config
+prog_name = generator
+root_path = /home/leo_lin_colab/FinQA-main/
+output_path = path_to_store_outputs/finqa_normal
+cache_dir = path_for_other_cache/finqa_normal
+model_save_name = bert-base
+train_file = /home/leo_lin_colab/FinQA-main/dataset/train.json
+valid_file = /home/leo_lin_colab/FinQA-main/dataset/dev.json
+test_file = /home/leo_lin_colab/FinQA-main/dataset/test.json
+op_list_file = operation_list.txt
+const_list_file = constant_list.txt
+pretrained_model = roberta
+model_size = roberta-large
+retrieve_mode = gold
+program_mode = seq
+device = cuda
+mode = train
+saved_model_path = path_to_store_outputs/finqa_normal/bert-base_20211209024546/saved_model/loads/42/model.pt
+build_summary = False
+sep_attention = True
+layer_norm = True
+num_char = False
+num_decoder_layers = 1
+num_encoder_layers = 1
+max_seq_length = 512
+max_program_length = 30
+max_num_length = 10
+num_emb_dim = 300
+n_best_size = 20
+dropout_rate = 0.1
+batch_size = 12
+batch_size_test = 12
+epoch = 300
+learning_rate = 2e-05
+report = 300
+report_loss = 100
+max_step_ind = 11
+__dict__ = <attribute '__dict__' of 'parameters' objects>
+__weakref__ = <attribute '__weakref__' of 'parameters' objects>
+__doc__ = None
+#######################################################
+100 : loss = 5.293
+200 : loss = 2.169
+300 : loss = 1.731
+1 : time = 137.589 
+exe acc: 0.009060022650056626 prog acc: 0.0056625141562853904
+400 : loss = 1.467
+500 : loss = 1.341
+600 : loss = 1.275
+2 : time = 158.804 
+exe acc: 0.05549263873159683 prog acc: 0.052095130237825596
+700 : loss = 1.344
+800 : loss = 1.171
+900 : loss = 1.155
+3 : time = 158.396 
+exe acc: 0.24122310305775765 prog acc: 0.22197055492638731
+1000 : loss = 1.031
+1100 : loss = 0.985
+1200 : loss = 1.067
+4 : time = 158.591 
+exe acc: 0.2944507361268403 prog acc: 0.2650056625141563
+1300 : loss = 0.855
+1400 : loss = 0.922
+1500 : loss = 0.830
+5 : time = 158.780 
+exe acc: 0.29671574178935445 prog acc: 0.2797281993204983
+1600 : loss = 0.796
+1700 : loss = 0.780
+1800 : loss = 0.824
+6 : time = 158.515 
+exe acc: 0.5254813137032842 prog acc: 0.49037372593431483
+1900 : loss = 0.817
+2000 : loss = 0.680
+2100 : loss = 0.694
+7 : time = 159.000 
+exe acc: 0.5402038505096263 prog acc: 0.5186862967157417
+2200 : loss = 0.634
+2300 : loss = 0.722
+2400 : loss = 0.687
+8 : time = 159.228 
+exe acc: 0.5764439411098528 prog acc: 0.5469988674971688
+2500 : loss = 0.649
+2600 : loss = 0.741
+2700 : loss = 0.668
+9 : time = 158.832 
+exe acc: 0.4360135900339751 prog acc: 0.42242355605889015
+2800 : loss = 0.617
+2900 : loss = 0.596
+3000 : loss = 0.710
+10 : time = 159.890 
+exe acc: 0.4360135900339751 prog acc: 0.4099660249150623
+3100 : loss = 0.682
+3200 : loss = 0.615
+3300 : loss = 0.533
+11 : time = 156.475 
+exe acc: 0.6330690826727067 prog acc: 0.6047565118912798
+3400 : loss = 0.587
+3500 : loss = 0.576
+3600 : loss = 0.500
+12 : time = 159.171 
+exe acc: 0.6206115515288788 prog acc: 0.5934314835787089
+3700 : loss = 0.483
+3800 : loss = 0.485
+3900 : loss = 0.501
+13 : time = 156.221 
+exe acc: 0.6194790486976217 prog acc: 0.5934314835787089
+4000 : loss = 0.505
+4100 : loss = 0.516
+4200 : loss = 0.412
+14 : time = 156.377 
+exe acc: 0.5843714609286523 prog acc: 0.5628539071347678
+4300 : loss = 0.477
+4400 : loss = 0.538
+4500 : loss = 0.622
+15 : time = 156.217 
+exe acc: 0.6296715741789355 prog acc: 0.6013590033975085
+4600 : loss = 0.460
+4700 : loss = 0.439
+4800 : loss = 0.420
+16 : time = 156.729 
+exe acc: 0.6432616081540203 prog acc: 0.608154020385051
+4900 : loss = 0.447
+5000 : loss = 0.490
+5100 : loss = 0.426
+17 : time = 158.945 
+exe acc: 0.5719139297848245 prog acc: 0.5583238958097395
+5200 : loss = 0.414
+5300 : loss = 0.354
+5400 : loss = 0.384
+18 : time = 156.341 
+exe acc: 0.5198187995469988 prog acc: 0.5039637599093998
+5500 : loss = 0.523
+5600 : loss = 0.592
+5700 : loss = 0.459
+19 : time = 156.111 
+exe acc: 0.3001132502831257 prog acc: 0.27519818799546997
+5800 : loss = 0.817
+5900 : loss = 0.415
+6000 : loss = 0.379
+20 : time = 154.006 
+exe acc: 0.6511891279728199 prog acc: 0.6240090600226501
+6100 : loss = 0.333
+6200 : loss = 0.409
+6300 : loss = 0.456
+21 : time = 158.985 
+exe acc: 0.5832389580973952 prog acc: 0.5594563986409966
+6400 : loss = 0.355
+6500 : loss = 0.463
+6600 : loss = 0.564
+22 : time = 156.096 
+exe acc: 0.638731596828992 prog acc: 0.6115515288788222
+6700 : loss = 0.402
+6800 : loss = 0.405
+6900 : loss = 0.392
+23 : time = 156.995 
+exe acc: 0.6183465458663646 prog acc: 0.5956964892412231
+7000 : loss = 0.399
+7100 : loss = 0.335
+7200 : loss = 0.328
+24 : time = 156.901 
+exe acc: 0.6534541336353341 prog acc: 0.6296715741789355
+7300 : loss = 0.287
+7400 : loss = 0.292
+7500 : loss = 0.300
+25 : time = 159.233 
+exe acc: 0.6681766704416761 prog acc: 0.6398640996602492
+7600 : loss = 0.293
+7700 : loss = 0.317
+7800 : loss = 0.331
+26 : time = 159.005 
+exe acc: 0.665911664779162 prog acc: 0.6308040770101925
+7900 : loss = 0.266
+8000 : loss = 0.276
+8100 : loss = 0.267
+27 : time = 156.080 
+exe acc: 0.6511891279728199 prog acc: 0.6183465458663646
+8200 : loss = 0.274
+8300 : loss = 0.350
+8400 : loss = 0.238
+28 : time = 156.964 
+exe acc: 0.6070215175537939 prog acc: 0.5821064552661381
+8500 : loss = 0.284
+8600 : loss = 0.266
+8700 : loss = 0.309
+29 : time = 156.686 
+exe acc: 0.6500566251415628 prog acc: 0.6262740656851642
+8800 : loss = 0.280
+8900 : loss = 0.258
+9000 : loss = 0.263
+30 : time = 156.925 
+exe acc: 0.6613816534541337 prog acc: 0.637599093997735
+9100 : loss = 0.242
+9200 : loss = 0.270
+9300 : loss = 0.274
+31 : time = 156.798 
+exe acc: 0.6874292185730464 prog acc: 0.6625141562853907
+9400 : loss = 0.265
+9500 : loss = 0.254
+9600 : loss = 0.259
+32 : time = 158.568 
+exe acc: 0.6126840317100792 prog acc: 0.5855039637599094
+9700 : loss = 0.274
+9800 : loss = 0.226
+9900 : loss = 0.194
+33 : time = 156.190 
+exe acc: 0.6851642129105323 prog acc: 0.6466591166477916
+10000 : loss = 0.236
+10100 : loss = 0.201
+10200 : loss = 0.288
+34 : time = 156.386 
+exe acc: 0.6534541336353341 prog acc: 0.6342015855039638
+10300 : loss = 0.235
+10400 : loss = 0.228
+10500 : loss = 0.173
+35 : time = 158.812 
+exe acc: 0.6772366930917327 prog acc: 0.6545866364665912
+10600 : loss = 0.245
+10700 : loss = 0.211
+10800 : loss = 0.180
+36 : time = 156.932 
+exe acc: 0.6704416761041903 prog acc: 0.6500566251415628
+10900 : loss = 0.220
+11000 : loss = 0.199
+11100 : loss = 0.156
+37 : time = 156.929 
+exe acc: 0.6625141562853907 prog acc: 0.6409966024915063
+11200 : loss = 0.190
+11300 : loss = 0.217
+11400 : loss = 0.252
+38 : time = 156.647 
+exe acc: 0.6511891279728199 prog acc: 0.6285390713476784
+11500 : loss = 0.168
+11600 : loss = 0.181
+11700 : loss = 0.235
+39 : time = 156.686 
+exe acc: 0.6851642129105323 prog acc: 0.665911664779162
+11800 : loss = 0.238
+11900 : loss = 0.221
+12000 : loss = 0.172
+40 : time = 156.704 
+exe acc: 0.6670441676104191 prog acc: 0.6455266138165345
+12100 : loss = 0.238
+12200 : loss = 0.234
+12300 : loss = 0.176
+41 : time = 156.621 
+exe acc: 0.6885617214043035 prog acc: 0.6591166477916195
+12400 : loss = 0.187
+12500 : loss = 0.187
+12600 : loss = 0.167
+42 : time = 158.642 
+exe acc: 0.6545866364665912 prog acc: 0.638731596828992
+12700 : loss = 0.210
+12800 : loss = 0.238
+12900 : loss = 0.167
+43 : time = 156.577 
+exe acc: 0.6795016987542469 prog acc: 0.6477916194790487
+13000 : loss = 0.172
+13100 : loss = 0.147
+13200 : loss = 0.142
+44 : time = 156.107 
+exe acc: 0.7010192525481314 prog acc: 0.6738391845979615
+13300 : loss = 0.161
+13400 : loss = 0.213
+13500 : loss = 0.352
+45 : time = 158.356 
+exe acc: 0.638731596828992 prog acc: 0.6251415628539071
+13600 : loss = 0.154
+13700 : loss = 0.131
+13800 : loss = 0.142
+46 : time = 155.584 
+exe acc: 0.6783691959229898 prog acc: 0.6557191392978482
+13900 : loss = 0.132
+14000 : loss = 0.180
+14100 : loss = 0.147
+47 : time = 156.565 
+exe acc: 0.6398640996602492 prog acc: 0.622876557191393
+14200 : loss = 0.130
+14300 : loss = 0.140
+14400 : loss = 0.263
+48 : time = 156.420 
+exe acc: 0.6330690826727067 prog acc: 0.6047565118912798
+14500 : loss = 0.229
+14600 : loss = 0.226
+14700 : loss = 0.135
+49 : time = 156.147 
+exe acc: 0.6670441676104191 prog acc: 0.6398640996602492
+14800 : loss = 0.146
+14900 : loss = 0.172
+15000 : loss = 0.161
+50 : time = 155.522 
+exe acc: 0.6885617214043035 prog acc: 0.6613816534541337
+15100 : loss = 0.137
+15200 : loss = 0.115
+15300 : loss = 0.110
+51 : time = 156.497 
+exe acc: 0.7089467723669309 prog acc: 0.6840317100792752
+15400 : loss = 0.119
+15500 : loss = 0.171
+15600 : loss = 0.150
+52 : time = 158.585 
+exe acc: 0.6704416761041903 prog acc: 0.6432616081540203
+15700 : loss = 0.093
